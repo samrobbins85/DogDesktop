@@ -8,6 +8,6 @@ def internet_on():
 if internet_on():
     # shutil.rmtree('/home/sam/Documents/Desktop/Pics/')
     # os.makedirs('/home/sam/Documents/Desktop/Pics/')
-    files = glob.glob('/home/sam/Documents/Desktop/Pics/*')
+    files = glob.glob('/home/sam/Documents/Personal_Projects/DogDesktop/Pics/*')
     for f in files:
         os.remove(f)

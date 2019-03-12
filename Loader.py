@@ -14,4 +14,4 @@ if internet_on():
         r=requests.get(link, headers = {'User-agent': 'your bot 0.1'})
         url=r.json()[0]['data']['children'][0]['data']['url']
 
-    urllib.request.urlretrieve(url, '/home/sam/Documents/Desktop/Pics/'+str(url[url.rfind('/')+1:]))
+    urllib.request.urlretrieve(url, '/home/sam/Documents/Personal_Projects/DogDesktop/Pics/'+str(url[url.rfind('/')+1:]))
